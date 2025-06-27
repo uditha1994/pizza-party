@@ -26,7 +26,7 @@ class PizzaOven {
 
 }
 
-const oven = new PizzaOven(); // there can be only one Oven
-Object.freeze(oven); //prevent modification
+const OVEN = new PizzaOven(); // there can be only one Oven
+Object.freeze(OVEN); //prevent modification
 
-export default oven;
+export default OVEN;
